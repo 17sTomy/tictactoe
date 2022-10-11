@@ -20,7 +20,7 @@ let draw = false
 
 const showMessagge = currentPlayer => {
     if (gameActive && draw == false) {
-        NOTIFICATION.textContent = `Player's "${currentPlayer}" turn...`  
+        NOTIFICATION.textContent = `Player "${currentPlayer}" turn...`  
     }else if (!gameActive && draw == false){
         NOTIFICATION.textContent = `Player "${currentPlayer}" wins!`  
     }else if (draw == true){
